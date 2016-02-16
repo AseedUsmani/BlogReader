@@ -1,0 +1,67 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\GhostRiley\AndroidStudioProjects\BlogReader\app\src\main\AndroidManifest.xml:2:1-30:12
+	package
+		ADDED from C:\Users\GhostRiley\AndroidStudioProjects\BlogReader\app\src\main\AndroidManifest.xml:3:5-44
+		INJECTED from C:\Users\GhostRiley\AndroidStudioProjects\BlogReader\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\GhostRiley\AndroidStudioProjects\BlogReader\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\GhostRiley\AndroidStudioProjects\BlogReader\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\GhostRiley\AndroidStudioProjects\BlogReader\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\GhostRiley\AndroidStudioProjects\BlogReader\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from C:\Users\GhostRiley\AndroidStudioProjects\BlogReader\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\GhostRiley\AndroidStudioProjects\BlogReader\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\GhostRiley\AndroidStudioProjects\BlogReader\app\src\main\AndroidManifest.xml:5:5-6:23
+	android:name
+		ADDED from C:\Users\GhostRiley\AndroidStudioProjects\BlogReader\app\src\main\AndroidManifest.xml:5:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\Users\GhostRiley\AndroidStudioProjects\BlogReader\app\src\main\AndroidManifest.xml:7:5-8:23
+	android:name
+		ADDED from C:\Users\GhostRiley\AndroidStudioProjects\BlogReader\app\src\main\AndroidManifest.xml:7:22-76
+application
+ADDED from C:\Users\GhostRiley\AndroidStudioProjects\BlogReader\app\src\main\AndroidManifest.xml:10:5-28:19
+MERGED from [com.android.support:appcompat-v7:23.0.1] C:\Users\GhostRiley\AndroidStudioProjects\BlogReader\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.0.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.0.1] C:\Users\GhostRiley\AndroidStudioProjects\BlogReader\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\AndroidManifest.xml:22:5-20
+	android:label
+		ADDED from C:\Users\GhostRiley\AndroidStudioProjects\BlogReader\app\src\main\AndroidManifest.xml:13:9-41
+	android:allowBackup
+		ADDED from C:\Users\GhostRiley\AndroidStudioProjects\BlogReader\app\src\main\AndroidManifest.xml:11:9-35
+	android:icon
+		ADDED from C:\Users\GhostRiley\AndroidStudioProjects\BlogReader\app\src\main\AndroidManifest.xml:12:9-43
+	android:theme
+		ADDED from C:\Users\GhostRiley\AndroidStudioProjects\BlogReader\app\src\main\AndroidManifest.xml:14:9-40
+activity#com.ghostriley.sgt.blogreader.MainListActivity
+ADDED from C:\Users\GhostRiley\AndroidStudioProjects\BlogReader\app\src\main\AndroidManifest.xml:15:9-23:20
+	android:label
+		ADDED from C:\Users\GhostRiley\AndroidStudioProjects\BlogReader\app\src\main\AndroidManifest.xml:17:13-45
+	android:name
+		ADDED from C:\Users\GhostRiley\AndroidStudioProjects\BlogReader\app\src\main\AndroidManifest.xml:16:13-45
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\Users\GhostRiley\AndroidStudioProjects\BlogReader\app\src\main\AndroidManifest.xml:18:13-22:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\GhostRiley\AndroidStudioProjects\BlogReader\app\src\main\AndroidManifest.xml:19:17-69
+	android:name
+		ADDED from C:\Users\GhostRiley\AndroidStudioProjects\BlogReader\app\src\main\AndroidManifest.xml:19:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\GhostRiley\AndroidStudioProjects\BlogReader\app\src\main\AndroidManifest.xml:21:17-77
+	android:name
+		ADDED from C:\Users\GhostRiley\AndroidStudioProjects\BlogReader\app\src\main\AndroidManifest.xml:21:27-74
+activity#com.ghostriley.sgt.blogreader.BlogWebViewActivity
+ADDED from C:\Users\GhostRiley\AndroidStudioProjects\BlogReader\app\src\main\AndroidManifest.xml:24:9-27:20
+	android:label
+		ADDED from C:\Users\GhostRiley\AndroidStudioProjects\BlogReader\app\src\main\AndroidManifest.xml:26:13-65
+	android:name
+		ADDED from C:\Users\GhostRiley\AndroidStudioProjects\BlogReader\app\src\main\AndroidManifest.xml:25:13-48
+uses-sdk
+INJECTED from C:\Users\GhostRiley\AndroidStudioProjects\BlogReader\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:appcompat-v7:23.0.1] C:\Users\GhostRiley\AndroidStudioProjects\BlogReader\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.0.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.0.1] C:\Users\GhostRiley\AndroidStudioProjects\BlogReader\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\AndroidManifest.xml:20:5-43
+	android:targetSdkVersion
+		INJECTED from C:\Users\GhostRiley\AndroidStudioProjects\BlogReader\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\GhostRiley\AndroidStudioProjects\BlogReader\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\GhostRiley\AndroidStudioProjects\BlogReader\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\GhostRiley\AndroidStudioProjects\BlogReader\app\src\main\AndroidManifest.xml
