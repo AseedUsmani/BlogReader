@@ -151,7 +151,7 @@ public class MainListActivity extends ListActivity {
     }
 
     private void updateDisplayForError() {
-        AlertDialog.Builder builder=new AlertDialog.Builder(this);
+        /*AlertDialog.Builder builder=new AlertDialog.Builder(this);
         builder.setTitle("Error");
         builder.setMessage("Error in loading blog data");
         builder.setPositiveButton(android.R.string.ok, null);
@@ -159,7 +159,10 @@ public class MainListActivity extends ListActivity {
         dialog.show();
 
         TextView emptyTextView=(TextView)getListView().getEmptyView();
-        emptyTextView.setText(getString(R.string.no_items));
+        emptyTextView.setText(getString(R.string.no_items)); */
+        
+        Intent intent=new Intent (this, MainListActivitiy.class);
+        startActivity(intent);
     }
 
     private class GetBlogPostTask extends AsyncTask<Object, Void, JSONObject> {
